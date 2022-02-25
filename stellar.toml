@@ -1,0 +1,11 @@
+VERSION="2.2.1"
+
+# The URL of Deployed Server with `/federation` path at the end
+FEDERATION_SERVER="https://federation.lafronz.com/federation"
+
+# Who is the owner of the server
+[[PRINCIPALS]]
+name="Tyler La Fronz"
+email="tyler@lafronz.com"
+keybase="tlafronz"
+twitter="tlafronz"
