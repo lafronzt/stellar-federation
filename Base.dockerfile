@@ -3,6 +3,8 @@
 # https://hub.docker.com/_/golang
 FROM golang:1.17 as builder
 
+LABEL org.opencontainers.image.source https://github.com/lafronzt/stellar-federation
+
 # Create and change to the app directory.
 WORKDIR /app
 
